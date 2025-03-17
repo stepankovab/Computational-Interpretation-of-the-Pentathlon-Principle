@@ -262,9 +262,6 @@ class PentathlonEvaluator():
         """
         distance = 0
         
-        if len(syllabified_sections_list_1) != len(syllabified_sections_list_2):
-            return 10
-
         for i in range(min(len(syllabified_sections_list_1), len(syllabified_sections_list_2))):
 
             CCVO_1 = self.consonant_clusters_vowel_openness(syllabified_sections_list_1[i])
